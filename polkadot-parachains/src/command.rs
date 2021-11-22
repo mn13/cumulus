@@ -54,7 +54,7 @@ impl IdentifyChain for dyn sc_service::ChainSpec {
 		self.id().starts_with("statemint")
 	}
 	fn is_statemine(&self) -> bool {
-		self.id().starts_with("statemine")
+		self.id().starts_with("genshiro")
 	}
 	fn is_westmint(&self) -> bool {
 		self.id().starts_with("westmint")
